@@ -94,23 +94,23 @@ app.layout = dbc.Container([
 
     # addition row at the bottom (description, limitation - for the poster session)
     dbc.Row([
-        dbc.Col([
-            html.H3("Short Description", className="text-center"),
-            html.Ul([
-                html.Li("Lorem ipsum"),
-                html.Li("Lorem ipsum"),
-                html.Li("Lorem ipsum")
-            ], className="list-unstyled text-center")
-        ], width=6),
-
-        dbc.Col([
-            html.H3("Limitations", className="text-center"),
-            html.Ul([
-                html.Li("Lorem ipsum"),
-                html.Li("Lorem ipsum"),
-                html.Li("Lorem ipsum")
-            ], className="list-unstyled text-center")
-        ], width=6)
+        # dbc.Col([
+        #     html.H3("Short Description", className="text-center"),
+        #     html.Ul([
+        #         html.Li("Lorem ipsum"),
+        #         html.Li("Lorem ipsum"),
+        #         html.Li("Lorem ipsum")
+        #     ], className="list-unstyled text-center")
+        # ], width=6),
+        #
+        # dbc.Col([
+        #     html.H3("Limitations", className="text-center"),
+        #     html.Ul([
+        #         html.Li("Lorem ipsum"),
+        #         html.Li("Lorem ipsum"),
+        #         html.Li("Lorem ipsum")
+        #     ], className="list-unstyled text-center")
+        # ], width=6)
 
         # overall border for the row
     ], style={'border': '1px solid #c4c7c9', 'padding': '10px'})
