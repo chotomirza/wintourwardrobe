@@ -3,4 +3,4 @@ pandas
 gunicorn
 dash_bootstrap_components
 pillow
-tensorflow
+tensorflow-cpu
