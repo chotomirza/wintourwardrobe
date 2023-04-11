@@ -21,6 +21,7 @@ from PIL import Image
 
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])  # applies CSS stylesheet
+server = app.server
 
 # Create the layout
 app.layout = dbc.Container([
