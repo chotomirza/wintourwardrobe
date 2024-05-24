@@ -183,8 +183,9 @@ def update_output(contents, n_clicks, filename):
         # return [
         output_prediction = [
             html.Div(className="d-flex justify-content-center flex-column align-items-center", children=[html.Div(
-                [html.H5(f"Predicted class: {predicted_class}", style={'font-family': 'Calibri'}),
-                 html.H3(f"Predicted title: {predicted_title}", style={'font-family': 'Calibri'})],
+                [
+                    # html.H5(f"Predicted class: {predicted_class}", style={'font-family': 'Calibri'}),
+                 html.H3(f"Predicted item: {predicted_title}", style={'font-family': 'Calibri'})],
                 className="text-center mb-3"),
                 html.Div(encoded_images, className="d-flex justify-content-center flex-wrap",
                          style={'width': '90%'}), ])
