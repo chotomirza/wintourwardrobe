@@ -12,7 +12,7 @@ The Keras model may occasionally cause issues during deployment. If you experien
 ### To Run Locally:
 1. Clone the repository:
     ```bash
-    git clone <https://github.com/chotomirza/wintourwardrobe.git>
+    git clone https://github.com/chotomirza/wintourwardrobe.git
     ```
 2. Install the necessary dependencies:
     ```bash
