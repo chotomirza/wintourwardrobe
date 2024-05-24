@@ -4,3 +4,4 @@ gunicorn
 dash_bootstrap_components
 pillow
 tensorflow-cpu
+gunicorn
